@@ -1,0 +1,26 @@
+#include<syscall.h>
+#include<stdio.h>
+int main(int argc, char* argv[]) 
+{
+  //printf("World!\n");
+  //
+  //int v =500;
+  
+  //char *g_pStartptr= (char*)0xfffffffff00b8000;
+  
+  //g_pStartptr+=2;
+  int a=20;
+  while(a--)
+  {
+  //*g_pStartptr = 'M';
+
+  printf("%d",35);
+//  yield();
+ // __asm("int $0x80");
+  
+ // g_pStartptr+=4;
+  
+  
+  }
+  return 0;
+  }
